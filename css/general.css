@@ -1,0 +1,88 @@
+/*
+-- Typography --
+  -1rem = 10px;
+-- Colors --
+   -Main-color:#e67e22;
+   -Grey-color:#495057;
+   -Shades and Tints:
+    <#212529>
+    <#343a40>
+    <#868e96>
+    <#ced4da>
+    <#e9ecef>
+    <#fdf2e9>
+    <#fff>
+    <#fae5d3>
+    <#A15818>
+    <#cf711f>
+    <#eb984e>
+    <#f0b27a>
+    <#eb984e>
+    <#45260a>
+    
+   -Accent Color-
+    <#228be6>
+    <#733f11>
+    <#51cf66>
+    <#a9e34b>
+    <#fcc419>
+-- Images --
+-- Icons --
+-- Shadows --
+-- Border-radius --
+-- Whitespace (px) --
+   -as required
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #45260a;
+  border-radius: 1rem;
+}
+
+.nav-but:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 0.4rem #cf711f;
+  border-radius: 100px;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #495057;
+  font-weight: 400;
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.3s;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+button {
+  border: none;
+}
